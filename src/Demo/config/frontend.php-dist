@@ -22,5 +22,21 @@
 return array(
     'frontend' => array(
         'pageTitle' => 'Demo program',
+        'plugins' => array(
+            // General plugins to include by default
+            'default' => array(
+                'jquery-ui' => array(
+                    array('js' => 'plugins/jquery-ui/jquery-ui.min.js'),
+                    array('css' => 'plugins/jquery-ui/jquery-ui.css'),
+                ),
+                'jquery' => array(
+                    array('js' => 'plugins/jquery/jquery.min.js'),
+                ),
+                'default' => array(
+                    array('js' => 'js/default.js'),
+                    array('css' => 'css/default.css'),
+                ),
+            ),
+        ),
     )
 );

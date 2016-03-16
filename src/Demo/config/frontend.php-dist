@@ -25,9 +25,9 @@ return array(
         'plugins' => array(
             // plugins to include for the demo program
             'demo' => array(
-                'extended-jquery' => array(
-                    array('js' => 'plugins/jquery-ui/jquery-ui.min.js'),
-                    array('css' => 'plugins/jquery-ui/jquery-ui.css'),
+                'extends-demo' => array(
+                    array('js' => 'demo/extra.js'),
+                    array('css' => 'demo/extra.css'),
                 ),
             ),
         ),

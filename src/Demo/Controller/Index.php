@@ -10,9 +10,9 @@
  * @copyright Copyright (c) 2016 by Florian Blasel for FloWorks Company
  * @license LGPL Version 3 http://www.gnu.org/licenses/lgpl-3.0.txt
  * ----------------------------------------------------------------------------
- * @category    Mumsys
- * @package     Mumsys_Program
- * @subpackage  Demo
+ * @category    Mumsys_Program
+ * @package     Demo
+ * @subpackage  Index_Controller
  * @version     1.0.0
  * Created: 2016-03-16
  * @filesource
@@ -23,9 +23,9 @@
 /**
  * Demo index controller
  *
- * @category    Mumsys
- * @package     Mumsys_Program
- * @subpackage  Demo
+ * @category    Mumsys_Program
+ * @package     Demo
+ * @subpackage  Index_Controller
  */
 class Mumsys_Program_Demo_Index_Controller
     extends Mumsys_Mvc_Program_Controller_Abstract

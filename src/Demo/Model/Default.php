@@ -18,6 +18,11 @@
  */
 /*}}}*/
 
+
+/**
+ * Default model for the demo program.
+ * Get and set demos
+ */
 class Mumsys_Program_Demo_Default_Model
     extends Mumsys_Mvc_Program_Model_Abstract
 {

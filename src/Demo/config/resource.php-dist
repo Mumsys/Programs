@@ -21,6 +21,10 @@
 
 
 return array(
+    /**
+     * If this program acts e.g. on another database, this is the place to
+     * configure it.
+     */
     'database' => array(
         'type' => 'mysql:mysqli',
         'host' => 'localhost',

@@ -18,8 +18,8 @@
  */
 /*}}}*/
 
-class Mumsys_Program_Demo_Model
-    extends Mumsys_Program_Model_Abstract
+class Mumsys_Program_Demo_Default_Model
+    extends Mumsys_Mvc_Program_Model_Abstract
 {
     /**
      * List of Demos

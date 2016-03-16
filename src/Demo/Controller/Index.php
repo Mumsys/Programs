@@ -3,8 +3,8 @@
 /*{{{*/
 /**
  * ----------------------------------------------------------------------------
- * Mumsys_Mvc_Program_Abstract
- * for MUMSYS Library for Multi User Management System (MUMSYS)
+ * Mumsys_Program_Demo_Index_Controller
+ * for MUMSYS (Multi User Management System)
  * ----------------------------------------------------------------------------
  * @author Florian Blasel <flobee.code@gmail.com>
  * @copyright Copyright (c) 2016 by Florian Blasel for FloWorks Company

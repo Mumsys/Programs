@@ -2,7 +2,7 @@
 
 /*{{{*/
 /**
- * Mumsys_Program_Demo_Model
+ * Mumsys_Program_Demo_Default_Model
  * for MUMSYS (Multi User Management System)
  * ----------------------------------------------------------------------------
  * @author Florian Blasel <flobee.code@gmail.com>

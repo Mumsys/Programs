@@ -10,6 +10,14 @@ Programs are your path to include projects eg.:
 which means in detail:
 
     Mumsys/Programs/Demo/
+
     Mumsys/Programs/Demo/Models/
-    Mumsys/Programs/Demo/Views_or_Templates/
+    Mumsys/Programs/Demo/View/
     Mumsys/Programs/Demo/Controllers/
+
+    Mumsys/Programs/Demo/config/default.php
+    Mumsys/Programs/Demo/config/frontend.php
+    Mumsys/Programs/Demo/config/resource.php
+
+    Mumsys/Programs/Demo/public/extra.css
+    Mumsys/Programs/Demo/public/extra.js

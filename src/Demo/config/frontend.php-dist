@@ -19,4 +19,8 @@
 /*}}}*/
 
 
-return array();
+return array(
+    'frontend' => array(
+        'pageTitle' => 'Demo program',
+    )
+);

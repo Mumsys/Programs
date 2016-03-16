@@ -1,0 +1,22 @@
+<?php
+
+/*{{{*/
+/**
+ * default config for the demo program
+ * for MUMSYS (Multi User Management System)
+ * ----------------------------------------------------------------------------
+ * @author Florian Blasel <flobee.code@gmail.com>
+ * @copyright Copyright (c) 2014 by Florian Blasel for FloWorks Company
+ * @license LGPL Version 3 http://www.gnu.org/licenses/lgpl-3.0.txt
+ * ----------------------------------------------------------------------------
+ * @category    Mumsys
+ * @package     Mumsys_Program
+ * @subpackage  Demo
+ * @version     1.0.0
+ * Created: 2016-03-16
+ * @filesource
+ */
+/*}}}*/
+
+
+return array();

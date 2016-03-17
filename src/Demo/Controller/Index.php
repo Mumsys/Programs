@@ -32,11 +32,16 @@ class Mumsys_Program_Demo_Index_Controller
 {
 
     protected $_oDB;
+
     /**
-     *
      * @var Mumsys_Mvc_Templates_Html_Extended
      */
     protected $_display;
+
+    /**
+     * @var Mumsys_Program_Demo_Default_Model|Mumsys_Mvc_Program_Controller_Interface
+     */
+    private $modelDemoDefault;
 
     /**
      * Optional constructor. If needed call the parent constructor which can
@@ -46,9 +51,11 @@ class Mumsys_Program_Demo_Index_Controller
     {
         parent::__construct($context, $programConfig );
 
-        $this->_oDB = $context->getDatabase();
+        $this->_oDB = $this->_context->getDatabase();
         // Parameters for an extended Html Output
-        $this->_display = $this->_getDisplay($paramsForViewAndTemplatesConroller, 'Html', 'Extended');
+        $this->_display = $this->_getDisplay('Html', 'Extended', $paramsForViewAndTemplatesConroller);
+
+        $this->modelDemoDefault = $this->loadModel('Demo','Default');
 
         /* Parameters for an limited Html Output e.g: A blank page including
          * html head and basic css and javascripts which maybe needed. This View

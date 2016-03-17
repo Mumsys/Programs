@@ -29,6 +29,7 @@
  */
 class Mumsys_Program_Demo_Default_Model
     extends Mumsys_Mvc_Program_Model_Abstract
+    implements Mumsys_Mvc_Program_Model_Interface
 {
     /**
      * List of Demos
